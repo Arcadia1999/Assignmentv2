@@ -10,17 +10,45 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
 }
+img.right {
+  float: right;
+}
+img.left {
+  float: left;
+}
 h1 {
   text-align: left;
   font-size: 100px;
+}
+h2 {
+  font-size: 40px;
+  text-align: center;
+}
+h3 {
+  font-family: arial black;
+  font-size: 25px;
+}
+h3.left {
+  text-align: left;
 }
 p {
   font-family: sans-serif;
   font-size: 20px;
 }
+p.left {
+  font-family: sans-serif;
+  font-size: 20px;
+  text-align: left;
+}
 ul {
   font-family: sans-serif;
-  text-align: center;
+  text-align: left;
+  font-size: 20px;
+  padding-left: 0;
+}
+ul.left {
+  font-family: sans-serif;
+  text-align: left;
   font-size: 20px;
   padding-left: 0;
 }
@@ -47,8 +75,9 @@ a {
   <meta name="description" content="My Student Website">
   <meta name="author" content="s3721471">
 
-</head>
+<a id="top">
 
+</head>
 <body>
 <!-- Wrap -->
 	<div id="wrapper">
@@ -66,14 +95,15 @@ a {
   				<h2>Introduction</h2>
   			</header>
 
-			  <p>Name: Dan Nguyen</p>
-<p>Student Number: s3721471</p>
-<p>Email address: s3721471@student.rmit.edu.au</p>
+			  <p class="left">Hello there! My name is Dan Nguyen and I am currently an IT student at RMIT in Melbourne.</p>
+<p class="left">Student Number: s3721471</p>
+<p class="left">Email address: s3721471@student.rmit.edu.au</p>
 
-<p><a href="#background">Background</a></p>
-<p><a href="#job">Ideal Job</a></p>
-<p><a href="#profile">Personal Profile</a></p>
-<p><a href="#porject">Project Idea</a></p>
+<p class="left">Quick Links:</p>
+<p class="left"><a href="#background">Background</a></p>
+<p class="left"><a href="#job">Ideal Job</a></p>
+<p class="left"><a href="#profile">Personal Profile</a></p>
+<p class="left"><a href="#project">Project Idea</a></p>
 
 
 </section>
@@ -84,9 +114,9 @@ a {
 				<h2>My Background</h2>
 			</header>
 
-      <p>Background Information:</p>
+      <h3 class="left">Background Information:</h3>
 
-      <ul>
+      <ul class="left">
       <li>Date of birth: 11/10/1999</li>
       <li>Nationality: Vietnamese</li>
       <li>Citizenship: Australian</li>
@@ -95,11 +125,13 @@ a {
       <li>Languages: English and Vietnamese</li>
       </ul>
 
-      <p>Fun facts:</p>
+      <h3 class="left">Fun facts:</h3>
       <ul>
       <li>For sports I play badminton</li>
       <li>Music instrument I play piano</li>
       </ul>
+
+      <p class="left"><a href="#top">Back Top</a></p>
 </section>
 
 		<!-- Ideal Job Section -->
@@ -107,30 +139,31 @@ a {
 			<header class="sectionHeading">
 				<h2>Ideal Job</h2>
 			</header>
-			<h3>Web/App Developer</h3>
 
-      <p>My Ideal Working Environment:</p>
+
+      <h3 class="left">My Ideal Working Environment:</h3>
       <ul>
       <li>Flexible working hours</li>
-      <li>Work from close to home</li>
+      <li>Being able to work close to home</li>
       <li>Decent to above average pay</li>
       </ul>
 
-      <p>What I look to get out of it:</p>
+      <h3 class="left">What I look to get out of it:</h3>
       <ul>
       <li>Broader programming techniques/knowledge (key skills)</li>
       <li>Good social connection with colleagues</li>
+      <li>Better problem solving techniques</li>
 </ul>
 
-      <p>Priorities for Clients:</p>
+      <h3 class="left">Priorities for Clients:</h3>
 <ul>
       <li>Customer/Client satisfaction</li>
       <li>The ability to fulfil their needs</li>
 </ul>
 
-      <p><a href="https://au.indeed.com/job/elearning-l1-support-e710a9b608c3cff1">Job Description</a></p>
+<h3>Web/App Developer</h3>
 
-      <img src="Job.png">
+      <p><a href="https://au.indeed.com/job/elearning-l1-support-e710a9b608c3cff1">Link to Job Description</a><img class="right" src="Job.png"></p>
 
 			<p>This position is looking for an employee who can provide support and feedback for clients. In this case, they require employees with high understanding of Microsoft based systems and being able to problem solve issues on the client’s side. Apart from skill requirements, they are looking for individuals who bring a positive attitude and a can-do attitude.</p>
 <p>This job is ideal because it offers a safe and productive work environment where it aims to improve the quality of life for teachers and students at schools through an app and website called “Compass”. Their key focus is client satisfaction which is a priority of mine when it comes to web or app development.</p>
@@ -139,6 +172,7 @@ a {
 <p>The pay and location is fitting of my ideals with the pay between $50,000 - $65,000 and the location being half an hours drive from home is also ideal. There are a team of workers who aim to deliver the best service
 </p>
 <h1>MORE TO DO</h1>
+<p class="left"><a href="#top">Back Top</a></p>
 			</section>
 
 <!-- Personal Profile -->
@@ -148,8 +182,10 @@ a {
   </header>
   <p>Myers-Briggs Test: <a href="https://www.16personalities.com/free-personality-test">https://www.16personalities.com/free-personality-test</a></p>
 <img src="Personality.png">
+
 <p>Online learning style Test: <a href="http://vark-learn.com/the-vark-questionnaire/">http://vark-learn.com/the-vark-questionnaire/</a></p>
 <img src="Learning Style.png">
+
 <p>Big Five Personality Test: <a href="https://www.truity.com/test/big-five-personality-test">https://www.truity.com/test/big-five-personality-test</a></p>
 <img src="Openess.png">
 <img src="Conscientiousness.png">
@@ -165,13 +201,14 @@ a {
 
 <h3>How should you take this into account when forming a team?</h3>
 <p>I hope to be able to work in a team with similar qualities like myself or have different learning techniques so we can learn from one another and be productive together. On the other hand, I am also able to work with a team where someone takes charge and gives us tasks to do as working under instructions can be more efficient than working without knowing the goal.</p>
-
+<p class="left"><a href="#top">Back Top</a></p>
 </section>
 
 <!-- Project Idea -->
 <section id="project">
   <header class="sectionHeading">
     <h2>Project Idea</h2>
+    <p class="left"><a href="#top">Back Top</a></p>
   </section>
   	</div>
 
